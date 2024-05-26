@@ -1,0 +1,19 @@
+body{
+    background-color: #ffdae4;
+}
+
+#text_label{
+    padding-top: 20%;
+    font-size: x-large;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#verification_code{
+    margin-top: 20px;
+    display:flex;
+    font-size: xxx-large;
+    flex-direction: row;
+    justify-content: center;
+}

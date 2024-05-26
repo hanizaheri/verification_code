@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> verification code </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+    <div id = "main">
+        <label id="text_label">  your verification code is: </label>
+        <label id="verification_code"> </label>
+        <script> document.getElementById("verification_code").innerHTML
+            = Math.floor(Math.random() * 9000) + 1000 </script>
+    </div>
+    </body>
+</html>
