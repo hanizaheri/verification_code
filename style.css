@@ -1,8 +1,9 @@
 body{
-    background-color: #ffdae4;
+    background-color:mediumblue;
 }
 
 #text_label{
+    -webkit-text-size-adjust: 100%;
     padding-top: 20%;
     font-size: 200%;
     display:flex;
@@ -12,6 +13,7 @@ body{
 }
 
 #verification_code{
+    -webkit-text-size-adjust: 100%;
     margin-top: 20px;
     display:flex;
     font-weight: bold;
