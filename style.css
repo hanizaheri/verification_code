@@ -1,5 +1,5 @@
 body{
-    background-color:yellow;
+    background-color:purple;
 }
 
 #text_label{
@@ -23,8 +23,7 @@ body{
 }
 
 #main{
-    padding-top: 50%;
+    padding-top: 80%;
     padding-bottom: 20%;
-    color: red;
     text-align: center;
 }
