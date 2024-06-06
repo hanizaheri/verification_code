@@ -1,5 +1,5 @@
 body{
-    background-color:purple;
+    background-color:#ffdae4;
 }
 
 #text_label{
@@ -23,7 +23,7 @@ body{
 }
 
 #main{
-    padding-top: 80%;
+    padding-top: 70%;
     padding-bottom: 20%;
     text-align: center;
 }
