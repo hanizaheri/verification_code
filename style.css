@@ -4,7 +4,7 @@ body{
 
 #text_label{
     padding-top: 20%;
-    font-size: x-large;
+    font-size: 200%;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
     margin-top: 20px;
     display:flex;
     font-weight: bold;
-    font-size: xxx-large;
+    font-size: 1000%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
