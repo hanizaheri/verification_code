@@ -3,6 +3,7 @@
 
     <head>
         <title> verification code </title>
+        <link rel="icon" type="image/png" href="images/icons/ui-design.png"/>
         <link rel="stylesheet" href="style.css" />
     </head>
 
@@ -10,8 +11,15 @@
     <div id = "main">
         <label id="text_label">  your verification code is: </label>
         <label id="verification_code"> </label>
-        <script> document.getElementById("verification_code").innerHTML
-            = Math.floor(Math.random() * 9000) + 1000 </script>
+
+        <div id="myLink">
+						<a href="https://hanizaheri.github.io/login/">
+							Go to the main site
+						</a>
+        </div>
+
+        <script> const code = Math.floor(Math.random() * 9000) + 1000
+        document.getElementById("verification_code").innerHTML = code </script>
     </div>
     </body>
 </html>
